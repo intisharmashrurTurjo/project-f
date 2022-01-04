@@ -968,13 +968,13 @@ body{
     margin-left:    5%;
 }
 .fish img{
-    width: 250px;
+    width: 180px;
 }
 .fish2 {
    padding-left: 46%;
 }
 .fish2 img{
-    width: 150px;
+    width: 120px;
 }
 .fish3{
     top: 10%;
@@ -1018,6 +1018,9 @@ body{
     margin: 13px 0;
     font-weight: 400;
     font-family: 'Krub', sans-serif;
+}
+.about{
+    margin-top: 3%;
 }
 .service-col{
     width: 90%;
@@ -1081,6 +1084,10 @@ body{
     font-family: 'Rubik', sans-serif;
 
 }
+.card2{
+    font-size: 16px;
+    font-weight: 400;
+}
 .card3{
     border: none;
     margin-left: 25px;
@@ -1095,6 +1102,54 @@ body{
     color:  #494949 ;
     font-family: 'Rubik', sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+/* --------------------Vision 22222------------------------------*/
+
+.vision2{
+    height: 85vh;
+    margin-top: 20%;
+    width: 100%;
+}
+.job-image img{
+    transform: rotate(-59deg);
+  
+}
+.card5{
+    background: linear-gradient( 
+        156.49deg, #5b5bdb2e 1.87%, #cdeeff 84.84%) !important;
+    height: 32vh;
+    border-radius: 20px !important;
+    border: none;  
+    font-family: 'Krub', sans-serif;
+    padding: 20px !important;
+}
+.card5 h3{
+    font-weight: 500;
+    font-size: 35px;
+
+}
+
+
+
+
+
+
+
+/*///////////social/////////////////*/
+.payment{
+    height: 20vh;
+    margin-top: 15%;
+}
+/*///////////social/////////////////*/
 
 
 
@@ -1126,6 +1181,28 @@ body{
         height: 105vh;
         margin-top: 500%;
     }
+    .card3{
+        height: 85vh !important;
+    }
+    .vision-background button{
+        margin-top: 60% !important;
+    }
+    /* .card2{
+        font-size: 13px;
+    } */
+    .vision2{
+        margin-top: 320% !important;
+    }
+    .vision2 .col-md-7{
+        margin-top: -15% !important;
+    }
+    .vision2 .col-md-5 .job{
+        margin-top: 30% !important;
+        margin-bottom: 10%;
+    }
+    .card5{
+        height: 50vh;
+    }
 }
 
 @media (min-width:334px) and (max-width:575.98px){
@@ -1147,12 +1224,33 @@ body{
     } 
     .about-container{
         margin-top: 130%;
-    }   
+    } 
+    .vision2 .col-md-7{
+        margin-top: 2% !important;
+    }  
+    .card5{
+        height: 40vh;
+        padding-top: 30px ;
+    }
+    .card3{
+        height: 60vh !important;
+    }
+    .vision2{
+        margin-top: 250% !important;
+    }
 }
 @media (min-width:475px) and (max-width:575.98px){
     .service-col{
         height: 145vh;
     }      
+}
+@media (min-width:500px) and (max-width:575.98px){
+    .service-col{
+        height: 145vh;
+    } 
+    .vision2{
+        margin-top: 100% !important;
+    }     
 }
 @media (min-width:576px) and (max-width:767.98px){
     .title::after{
@@ -1176,6 +1274,22 @@ body{
         height: 105vh;
         margin-top: -50%;
     } 
+    .vision2{
+        margin-top: 100% !important;
+    }
+    .vision2 .col-md-7{
+        margin-top: 3% !important;
+    }
+    .vision2 .col-md-5 .job{
+        margin-top: 30% !important;
+        margin-bottom: 10%;
+    }
+    .card5{
+        height: 40vh;
+    }
+    .card5 img{
+        width: 70px !important;
+    }
 }
 
 /* small end*/
@@ -1205,7 +1319,7 @@ body{
         margin-top: 80%;
     }
     .pro-item{
-        height: 67vh;
+        height: 58vh;
     
     } 
 }
